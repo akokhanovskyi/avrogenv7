@@ -1,0 +1,18 @@
+{
+    "namespace":"org.example.gen.v1",
+    "name":"TestRecord",
+    "type":"record",
+    "fields":[
+        {
+            "name":"kvs",
+            "type":{
+                "type":"map",
+                "values":[
+                    "string",
+                    "bytes",
+                    "null"
+                ]
+            }
+        }
+    ]
+}
