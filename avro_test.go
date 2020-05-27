@@ -7,7 +7,7 @@ import (
 
 	"github.com/akokhanovskyi/avrogenv7/gen/avro"
 
-	"gotest.tools/assert"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestAvroV7(t *testing.T) {
